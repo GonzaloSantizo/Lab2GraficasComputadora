@@ -9,7 +9,7 @@ rend = Renderer(width,height)
 rend.vertexShader = shaders.vertexShader
 rend.fragmentShader = shaders.fragmentShader
 #rend.glCamMatrix(translate=(1,2,0))
-rend.glLookAt(camPos=(-5,-5,-5),eyePos=(0,0,-3))
+rend.glLookAt(camPos=(0,0,0),eyePos=(0,0,-3))
 #distancia de camera x,y,z
 #distancia de camara x,y,y
 
